@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f6f2">
+  <meta name="description" content="Nino Lisjak — a developer with a playful mind. Explore shipped products, mobile apps, team projects, and experiments. Based in Slovenia.">
+  <meta property="og:title" content="Nino Lisjak — Serious code. Playful mind.">
+  <meta property="og:description" content="Apps, ideas, and a little organised chaos. Explore Nino’s developer portfolio.">
+  <meta property="og:type" content="website">
+  <title>Nino Lisjak — Serious code. Playful mind.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to projects</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="header">
+    <a class="wordmark" href="#home" aria-label="Nino Lisjak home">nino<span class="logo-flower" aria-hidden="true">✳</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">The work<span>09</span></a><a href="#about">The human</a><a href="#stack">The toolkit</a>
+    </nav>
+    <div class="header-actions"><a class="cv-link" href="assets/Nino_Lisjak_CV.pdf" target="_blank" rel="noopener">My CV <svg><use href="#i-file"/></svg></a><a class="button button-dark header-contact" href="#contact">Let’s talk <span aria-hidden="true">✳</span></a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button></div>
+  </header>
+  <nav class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#work">The work</a><a href="#about">The human</a><a href="#stack">The toolkit</a><a href="#contact">Let’s talk</a></nav>
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="tiny-star" aria-hidden="true">✳</span> NINO LISJAK / DEVELOPER & IDEA PERSON</div>
+        <h1>Serious code.<br><span class="playful">Playful mind<span class="period">.</span><svg class="underline" viewBox="0 0 620 24" aria-hidden="true"><path d="M7 17 Q295 -2 610 12 M40 22 Q350 7 575 20"/></svg></span></h1>
+        <p class="hero-description">I turn “what if?” into things you can actually use.<br>From real-world products to late-night experiments.</p>
+        <div class="hero-cta"><a class="button button-dark" href="#work">Explore my work <svg><use href="#i-grid"/></svg></a><a class="button button-outline" href="assets/Nino_Lisjak_CV.pdf" download>Grab my CV <svg><use href="#i-download"/></svg></a></div>
+        <div class="hero-location"><svg><use href="#i-globe"/></svg> Based in Slovenia. Building for wherever.</div>
+      </div>
+      <div class="playground" aria-label="Interactive project playground">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <span class="scribble scribble-one" aria-hidden="true">✧</span><span class="scribble scribble-two" aria-hidden="true">+</span>
+        <div class="float-object centerpiece" data-depth="0.035" aria-hidden="true">
+          <svg viewBox="0 0 360 360" class="mascot"><defs><radialGradient id="blob" cx="30%" cy="20%" r="85%"><stop stop-color="#edffb6"/><stop offset=".48" stop-color="#ceff68"/><stop offset=".8" stop-color="#addb48"/><stop offset="1" stop-color="#789b2d"/></radialGradient><filter id="shadow"><feDropShadow dx="5" dy="14" stdDeviation="9" flood-color="#7f8a61" flood-opacity=".2"/></filter></defs><g filter="url(#shadow)"><path d="M180 26C207-2 233 11 240 46C277 26 303 47 293 82C334 88 342 120 314 147C349 170 340 204 306 217C327 250 308 279 273 275C271 315 240 328 211 303C191 338 156 335 141 301C108 323 77 308 82 270C42 270 25 239 49 210C12 190 18 154 51 140C27 108 43 77 80 79C80 39 109 24 139 48C151 23 164 15 180 26Z" fill="url(#blob)"/><ellipse cx="151" cy="154" rx="12" ry="25" fill="#272b21"/><ellipse cx="213" cy="154" rx="12" ry="25" fill="#272b21"/><path d="M156 199Q182 225 210 195" fill="none" stroke="#272b21" stroke-width="8" stroke-linecap="round"/><ellipse cx="112" cy="186" rx="16" ry="8" fill="#a0d24a" opacity=".6"/></g></svg>
+        </div>
+        <a class="float-object app-tile tile-klubis" href="https://klubis.si" target="_blank" rel="noopener" data-depth="0.06" aria-label="Visit Klubis, my live club management product"><span class="app-symbol klubis-symbol">k<span>•</span></span><span class="tile-caption">Klubis <i class="live-dot"></i></span></a>
+        <a class="float-object app-tile tile-gameon" href="https://github.com/ninolisjak/GameOn-" target="_blank" rel="noopener" data-depth="0.09" aria-label="Explore the GameOn Flutter repository"><span class="app-symbol gameon-symbol"><svg><use href="#i-ball"/></svg></span><span class="tile-caption">GameOn</span></a>
+        <a class="float-object app-tile tile-tempo" href="https://github.com/ninolisjak/tempo" target="_blank" rel="noopener" data-depth="0.045" aria-label="Explore the Tempo repository"><span class="app-symbol tempo-symbol"><span class="wave-bars"><i></i><i></i><i></i><i></i><i></i></span></span><span class="tile-caption">Tempo</span></a>
+        <a class="float-object app-tile tile-chef" href="https://github.com/ninolisjak/smartchef-parser" target="_blank" rel="noopener" data-depth="0.075" aria-label="Explore the SmartChef repository"><span class="app-symbol chef-symbol"><svg><use href="#i-chef"/></svg></span><span class="tile-caption">SmartChef</span></a>
+        <span class="playground-note">a few things I’ve made<svg viewBox="0 0 100 55" aria-hidden="true"><path d="M5 5Q70 2 67 42Q45 29 53 17"/></svg></span>
+        <span class="orbit-caption">IDEAS IN ORBIT • CLICK TO EXPLORE</span>
+      </div>
+      <div class="hero-bottom"><span><span class="scroll-mouse" aria-hidden="true"></span> Scroll a little. Discover a lot.</span><span class="small-note">A portfolio with a personality.</span><button class="motion-toggle" aria-pressed="false"><svg><use href="#i-motion"/></svg><span>Motion on</span></button></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>CURIOUS BY DEFAULT</span><span>✳</span><span>BUILT WITH INTENTION</span><span>✳</span><span>A LITTLE BIT DIFFERENT</span><span>✳</span><span>CURIOUS BY DEFAULT</span><span>✳</span><span>BUILT WITH INTENTION</span><span>✳</span><span>A LITTLE BIT DIFFERENT</span><span>✳</span></div></div>
+    <section class="work section-shell" id="work">
+      <div class="section-heading reveal"><div><div class="eyebrow">THINGS I’VE BROUGHT TO LIFE</div><h2>Less talk.<br>More <span class="serif">“I made this.”</span></h2></div><p>Some shipped. Some still in the lab.<br>All started with a little curiosity.</p></div>
+      <div class="work-toolbar"><div class="filters" role="group" aria-label="Filter projects"><button class="active" data-filter="all" aria-pressed="true">All projects <span>9</span></button><button data-filter="web" aria-pressed="false">Web</button><button data-filter="mobile" aria-pressed="false">Mobile</button><button data-filter="experiments" aria-pressed="false">Experiments</button></div><span class="project-count" aria-live="polite">9 projects to explore</span></div>
+      <div class="project-grid" id="project-grid"></div>
+      <noscript><p>Explore all projects on <a href="https://github.com/ninolisjak">Nino’s GitHub</a>. Klubis is live at <a href="https://klubis.si">klubis.si</a>.</p></noscript>
+      <div class="work-footer"><span>Good ideas rarely stay in one repository.</span><a class="text-link" href="https://github.com/ninolisjak" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg> More on GitHub</a></div>
+    </section>
+    <section class="about" id="about"><div class="about-inner section-shell"><div class="about-art reveal" aria-hidden="true"><div class="about-paper"><span class="paper-eyebrow">ME, IN A FEW WORDS</span><div class="paper-code">&lt;developer&gt;<br><span>curiosity: endless;</span><br><span>ideas: probably too many;</span><br><span>mode: hands-on;</span><br>&lt;/developer&gt;</div><span class="paper-signature">Nino.</span><div class="paper-tape"></div></div><span class="sticker">BUILDER<br>AT HEART<span>✳</span></span><span class="about-spark">✧</span></div><div class="about-copy reveal"><div class="eyebrow">THE HUMAN BEHIND THE COMMITS</div><h2>Hi, I’m Nino.<br>I like making<br><span class="serif">things happen.</span></h2><p>I’m a developer from Slovenia who’s happiest turning an idea into something people can interact with. Mobile apps, web products, games — I follow the problem, then find the right tools.</p><p>I’ve built GameOn from scratch, taken Klubis to a real club, and led teams on GameOn’s React Native version and Planify. I enjoy owning the details and helping everyone see the bigger picture.</p><div class="about-tags"><span><svg><use href="#i-code"/></svg> Hands-on builder</span><span><svg><use href="#i-people"/></svg> Team lead</span><span><svg><use href="#i-spark"/></svg> Always experimenting</span></div><a class="text-link" href="assets/Nino_Lisjak_CV.pdf" target="_blank" rel="noopener">The full story, in my CV <svg><use href="#i-file"/></svg></a></div></div></section>
+    <section class="toolkit section-shell" id="stack"><div class="section-heading reveal"><div><div class="eyebrow">MY VERY HANDY TOOLBOX</div><h2>Different ideas.<br><span class="serif">The right tools.</span></h2></div><p>Tools I’ve used across these projects.<br>Pick one to see it in action.</p></div><div class="stack-grid" id="stack-grid"></div><div class="stack-result" id="stack-result" aria-live="polite"></div></section>
+    <section class="contact section-shell" id="contact"><div class="contact-top"><span class="eyebrow">GOT SOMETHING IN MIND?</span><span class="contact-spark" aria-hidden="true">✳</span></div><h2>Let’s make<br>something <span class="serif">click.</span></h2><div class="contact-bottom"><div><p>A role, a project, or a good conversation.<br>My inbox is a pretty good place to start.</p><a class="email-link" href="mailto:nino.lisjak@hotmail.com">nino.lisjak@hotmail.com</a><button class="copy-email" aria-label="Copy email address"><svg><use href="#i-copy"/></svg><span>Copy email</span></button><span id="copy-status" class="sr-only" role="status"></span></div><a class="contact-button" href="mailto:nino.lisjak@hotmail.com"><svg><use href="#i-mail"/></svg>Say hello</a></div></section>
+  </main>
+  <footer class="footer section-shell"><a class="wordmark" href="#home">nino<span class="logo-flower" aria-hidden="true">✳</span></a><span>Made with curiosity. And a few late nights.</span><div><a href="https://github.com/ninolisjak" target="_blank" rel="noopener">GitHub <svg><use href="#i-github"/></svg></a><a href="assets/Nino_Lisjak_CV.pdf" download>Download CV <svg><use href="#i-download"/></svg></a><a href="#home">Back to top</a></div><span class="copyright">© <span id="year">2026</span> Nino Lisjak</span></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">A CLOSER LOOK</span><button class="dialog-close" aria-label="Close project details"><svg><use href="#i-close"/></svg></button></div><div id="dialog-content"></div></dialog>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="15" y="3" width="6" height="6" rx="1"/><rect x="3" y="15" width="6" height="6" rx="1"/><rect x="15" y="15" width="6" height="6" rx="1"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H6v18h13V8ZM14 3v6h5M9 13h7M9 17h5"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="i-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 7 5 4-2 6H9l-2-6ZM12 3v4m-9 3 4 1m-1 8 3-2m9 2-3-2m6-7-4 1"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24"><path d="M7 15a5 5 0 0 1-2-9 5 5 0 0 1 7-2 5 5 0 0 1 7 2 5 5 0 0 1-2 9v6H7Zm0 2h10M9 10v3m6-3v3"/></symbol>
+    <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 20c-4 1-4-2-6-2m15 4v-4a4 4 0 0 0-1-3c3-.4 6-1.5 6-6a5 5 0 0 0-1.5-3.5 5 5 0 0 0-.1-3.5S20 1.6 17 3.3a13 13 0 0 0-7 0C7 1.6 5.6 2 5.6 2a5 5 0 0 0-.1 3.5A5 5 0 0 0 4 9c0 4.5 3 5.6 6 6a4 4 0 0 0-1 3v4" transform="translate(-1 0)"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 5-6 7 6 7m8-14 6 7-6 7m-3-16-2 20"/></symbol>
+    <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M2 21v-3a7 7 0 0 1 14 0v3M17 4a4 4 0 0 1 0 8m2 3a5 5 0 0 1 3 6"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 6 9 7 9-7"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m5 5 14 14M5 19 19 5"/></symbol>
+    <symbol id="i-motion" viewBox="0 0 24 24"><path d="M3 7h11m-9 5h14M3 17h11"/><circle cx="18" cy="7" r="2"/><circle cx="18" cy="17" r="2"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 4v3"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 2v6m10-6v6M3 11h18m-12 4 3 3 4-4"/></symbol>
+    <symbol id="i-butterfly" viewBox="0 0 24 24"><path d="M12 19C-1 18 1 0 9 5l3 7 3-7c8-5 10 13-3 14Zm0 0V9m-3-6 3 4 3-4"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 7h10c4 0 7 14 2 14l-4-5H9l-4 5C0 21 3 7 7 7ZM7 10v6m-3-3h6m6-1h.1m3 3h.1M12 7V3"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-9 9H3l2-5A9 9 0 1 1 21 11ZM7 9h10M7 13h7"/></symbol>
+    <symbol id="i-react" viewBox="0 0 32 32"><ellipse cx="16" cy="16" rx="15" ry="6"/><ellipse cx="16" cy="16" rx="15" ry="6" transform="rotate(60 16 16)"/><ellipse cx="16" cy="16" rx="15" ry="6" transform="rotate(120 16 16)"/><circle cx="16" cy="16" r="2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-flutter" viewBox="0 0 32 32"><path d="M22 2 4 20l6 6L30 6h-8ZM22 16 12 26l6 6h12L20 22l6-6Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-firebase" viewBox="0 0 32 32"><path d="m5 25 4-24 8 15 4-12 7 22-12 6Z"/><path d="m5 25 12-9 11 10M9 1l7 31"/></symbol>
+    <symbol id="i-js" viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="4"/><path d="M16 12v11c0 4-6 4-6 0m15-9c-5-5-8 2-3 4s6 5 2 7c-2 1-4 0-5-1"/></symbol>
+    <symbol id="i-typescript" viewBox="0 0 32 32"><rect x="2" y="2" width="28" height="28" rx="4"/><path d="M7 13h12m-6 0v13m13-12c-5-4-8 3-3 5s5 5 2 6c-2 1-4 0-5-1"/></symbol>
+    <symbol id="i-node" viewBox="0 0 32 32"><path d="m16 1 13 7v16l-13 7-13-7V8Z"/><path d="M9 22V11l14 11V11"/></symbol>
+    <symbol id="i-csharp" viewBox="0 0 32 32"><path d="m16 1 13 7v16l-13 7-13-7V8Zm1 10a7 7 0 1 0 0 10m3-10-2 10m8-10-2 10m-7-7h12m-13 4h12"/></symbol>
+  </defs></svg>
+</body>
+</html>
