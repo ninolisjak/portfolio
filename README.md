@@ -4,9 +4,17 @@ A responsive, interactive portfolio with original SVG/CSS artwork, pointer and s
 
 ## Run locally
 
-From this directory, run `npm run dev`, then open http://127.0.0.1:5173.
+From this directory, run `npm run dev` (`npm.cmd run dev` in Windows PowerShell), then open http://127.0.0.1:5173.
 
 Run `npm run check` to validate JavaScript and local assets. The deployable site is `dist/`.
+
+## GitHub Pages
+
+The repository is `ninolisjak/portfolio`. The workflow in `.github/workflows/deploy-pages.yml` validates the source and publishes only `dist/` on every push to `main`. It can also be run manually from the Actions tab.
+
+In repository Settings → Pages, the publishing source must be **GitHub Actions**. GitHub Pages requires a public repository on GitHub Free, or a plan that supports Pages for private repositories. The expected project address is https://ninolisjak.github.io/portfolio/ (subject to any account-level custom domain).
+
+No build, dependency installation, or secrets are needed. The page's relative asset URLs also work under the `/portfolio/` path. To deploy manually to another static host, upload the contents of `dist/`.
 
 ## Edit
 
