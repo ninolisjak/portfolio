@@ -23,6 +23,6 @@ No build, dependency installation, or secrets are needed. The page's relative as
 - Layout, palette, artwork, responsive rules, and motion: `dist/styles.css`.
 - CV: `dist/assets/Nino_Lisjak_CV.pdf`.
 
-The portfolio includes 11 projects. AFTRHOURS and Osiris use screenshots of their live websites; the other project artwork is an original visual interpretation. Both new landing pages include live-site and repository links. Private repositories are represented by project information and a contact option. Only Klubis is described as a live product. Motion respects the operating system preference and can also be toggled on the page.
+The portfolio includes 11 projects, all with original CSS/SVG illustrations. AFTRHOURS uses an event poster and ticket; Osiris uses a record and illustrated sleeve. Both landing pages include live-site and repository links. Private repositories are represented by project information and a contact option. Only Klubis is described as a live product. Motion respects the operating system preference and can also be toggled on the page.
 
 The locally hosted Space Grotesk font is licensed under the SIL Open Font License; see `dist/assets/OFL.txt`.

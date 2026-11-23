@@ -12,6 +12,5 @@ if(!pdf.subarray(0,5).equals(Buffer.from('%PDF-')))throw new Error('CV is not a 
 const script=await readFile('dist/app.js','utf8');
 const requiredRepos=['eClanarina','GameOn-','AFTRHOURS','osiris_landingpage','tempo','smartchef-parser','Planify','gameon_projekt','butterflawpage','rebuttal','latenightkebab'];
 for(const repo of requiredRepos)if(!script.includes(`repo:'${repo}'`))throw new Error(`Project omitted: ${repo}`);
-for(const match of script.matchAll(/preview:'([^']+)'/g))if(!(await stat(resolve('dist',match[1]))).isFile())throw new Error(`Missing project preview: ${match[1]}`);
 if(/href=["']#["']/.test(html))throw new Error('Placeholder link detected');
 console.log(`All local assets, CV, ${requiredRepos.length} project entries, and link targets validated.`);
