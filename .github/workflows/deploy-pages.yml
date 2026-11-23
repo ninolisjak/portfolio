@@ -32,6 +32,9 @@ jobs:
       - name: Validate JavaScript and assets
         run: npm run check
 
+      - name: Version asset URLs for this release
+        run: sed -i -e "s|href=\"styles.css\"|href=\"styles.css?v=$GITHUB_SHA\"|" -e "s|src=\"app.js\"|src=\"app.js?v=$GITHUB_SHA\"|" dist/index.html
+
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
